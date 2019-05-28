@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DTCollectionViewManager" "${PODS_CONFIGURATION_BUILD_DIR}/DTModelStorage" "${PODS_CONFIGURATION_BUILD_DIR}/DTTableViewManager" "${PODS_CONFIGURATION_BUILD_DIR}/MMCardView" "${PODS_CONFIGURATION_BUILD_DIR}/MagicalRecord" "${PODS_CONFIGURATION_BUILD_DIR}/SugarKit" "${PODS_CONFIGURATION_BUILD_DIR}/SuperPuperDuperLayout" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftRandom" "${PODS_CONFIGURATION_BUILD_DIR}/Wallet"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/DTCollectionViewManager/DTCollectionViewManager.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/DTModelStorage/DTModelStorage.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/DTTableViewManager/DTTableViewManager.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MMCardView/MMCardView.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MagicalRecord/MagicalRecord.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SugarKit/SugarKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SuperPuperDuperLayout/SuperPuperDuperLayout.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftRandom/SwiftRandom.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Wallet/Wallet.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "DTCollectionViewManager" -framework "DTModelStorage" -framework "DTTableViewManager" -framework "MMCardView" -framework "MagicalRecord" -framework "SugarKit" -framework "SuperPuperDuperLayout" -framework "SwiftRandom" -framework "Wallet"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

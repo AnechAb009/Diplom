@@ -1,0 +1,6 @@
+framework module SuperPuperDuperLayout {
+  umbrella header "SuperPuperDuperLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

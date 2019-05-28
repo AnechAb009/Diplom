@@ -1,0 +1,65 @@
+PODS:
+  - DTCollectionViewManager (6.4.2):
+    - DTModelStorage (~> 7.2.0)
+  - DTModelStorage (7.2.1):
+    - DTModelStorage/Core (= 7.2.1)
+  - DTModelStorage/Core (7.2.1)
+  - DTTableViewManager (6.4.0):
+    - DTModelStorage (~> 7.2.0)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MMCardView (1.1.2)
+  - SugarKit/Router (0.0.7)
+  - SuperPuperDuperLayout (1.1.0)
+  - SwiftRandom (1.0.0)
+  - Wallet (1.4.1)
+
+DEPENDENCIES:
+  - DTCollectionViewManager
+  - DTTableViewManager
+  - MagicalRecord
+  - MMCardView (from `https://github.com/makleso6/MMCardView.git`)
+  - SugarKit/Router
+  - SuperPuperDuperLayout
+  - SwiftRandom
+  - Wallet (from `https://github.com/makleso6/Wallet.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DTCollectionViewManager
+    - DTModelStorage
+    - DTTableViewManager
+    - MagicalRecord
+    - SugarKit
+    - SuperPuperDuperLayout
+    - SwiftRandom
+
+EXTERNAL SOURCES:
+  MMCardView:
+    :git: https://github.com/makleso6/MMCardView.git
+  Wallet:
+    :git: https://github.com/makleso6/Wallet.git
+
+CHECKOUT OPTIONS:
+  MMCardView:
+    :commit: 50a5dfe2d5afc2d2c93710506f6faed44b4f1958
+    :git: https://github.com/makleso6/MMCardView.git
+  Wallet:
+    :commit: f6ce3d18ce87a256b9c78718825b0ad6f8320205
+    :git: https://github.com/makleso6/Wallet.git
+
+SPEC CHECKSUMS:
+  DTCollectionViewManager: ed12125f356b89145a3b3ffc38486e05d0f18b0a
+  DTModelStorage: 0152e9b2f7ccc593f6b4ae99696e6470d4f676bb
+  DTTableViewManager: 08ea8335c0769c91bf2ffd0e843346b894d41e27
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MMCardView: 3190762158cc178ac350c4bfc056b5a5f78e5fce
+  SugarKit: eab91dfcfebee6a20fd228aa4df833c41de1a38d
+  SuperPuperDuperLayout: 95fc3316c2f0cdd54c33afc6e64a42043bb82787
+  SwiftRandom: 437275c63500ddf5a565cbd56996fb23f12cfc3d
+  Wallet: 071acbafa012ada2b35b4c6e58ad662f03824e21
+
+PODFILE CHECKSUM: 64fc2f554fe514697e43d7de6b2140fc04cb699f
+
+COCOAPODS: 1.5.0

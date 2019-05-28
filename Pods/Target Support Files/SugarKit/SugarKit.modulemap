@@ -1,0 +1,6 @@
+framework module SugarKit {
+  umbrella header "SugarKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
