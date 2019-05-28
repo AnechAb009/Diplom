@@ -1,11 +1,3 @@
-//
-//  ScannerViewController.swift
-//  BusinessCard
-//
-//  Created by Maksim Kolesnik on 02/04/2019.
-//  Copyright © 2019 Maksim Kolesnik. All rights reserved.
-//
-
 import UIKit
 import SugarKit
 import AVFoundation
